@@ -27,6 +27,7 @@ h1{
   padding: 30px;
   display: flex;
   justify-content:center;
+  color:#6C0345;
  }
 
 
@@ -148,14 +149,32 @@ margin-right: 30PX;
   transform: translateY(-5px);
 padding: 20PX;
 background-color:#FAF6F0;
-border-radius: 20px;
+border-radius: 30px;
+
 }
+
+
+
+
+.card:hover{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+
 
 .team{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin:20px; 
+}
+
+.like{
+padding-left:250px;
+padding-right:250px;
+
 }
 
 
@@ -217,12 +236,13 @@ p{
 .card button {
   border: none;
   outline: 0;
-  padding:30;
+  margin:20px; 
+  padding:50;
   color: white;
   background-color: #A78295;
   text-align: center;
   cursor: pointer;
-  width: 80%;
+  width: 90px;
   font-size: 18px;
   border-radius:20px;
 }
