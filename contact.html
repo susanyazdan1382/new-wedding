@@ -17,7 +17,7 @@
 
 <style>
 
-  #p:hover{
+  #p:focus{
     background-color:#EEF5FF;
   }
   .form-control:focus{
@@ -25,47 +25,19 @@
       transition:border-color ease-in-out 0,15s, box-shadow ease-in-out 0,15s;
   }
 
+
+
+
 .form{
   margin:17px;
   font-size:20px;
 }
 
 
-
-.btn{
-  width:1450px;
-  margin:30px;
-  background-color: #A78295;
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-
-.btn:focus{
-  transition:border-color ease-in-out 0,15s, box-shadow ease-in-out 0,15s;
-
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color:#EFE1D1;
-}
-
-#m:hover{
+#m:focus{
   background-color:#EEF5FF;
 
 }
-
-
-
-
-
-
-
-
-
 
 </style>
 
@@ -105,7 +77,7 @@
         </nav>
 
 
-<h1>Contact Us</h1>
+<em>Contact Us</em>
 
 <form>
   <div class="form">
@@ -122,7 +94,8 @@
        <textarea class="form-control" rows="5" id="m" name="text"></textarea>
      </div>
 
-    <button type="submit" class="btn">Submit</button>
+     <input type="submit" class="form-control" id="p">
+
 </form>
 
 
